@@ -1,0 +1,28 @@
+{
+  "name": "voiceacting-builder",
+  "version": "1.0.0",
+  "description": "A voiceacting mod for CrossCode",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && cp -r ./assets/. ./dist/",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCDirectLink/voice-acting.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CCDirectLink/voice-acting/issues"
+  },
+  "homepage": "https://github.com/CCDirectLink/voice-acting#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/node-fetch": "^2.5.4",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0"
+  }
+}
