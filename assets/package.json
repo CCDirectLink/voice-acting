@@ -1,0 +1,5 @@
+{
+    "name": "voiceacting",
+    "ccmodHumanName": "VoiceActing",
+    "plugin": "plugin.js"
+}
